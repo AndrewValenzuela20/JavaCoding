@@ -2,11 +2,9 @@ package class7;
 
 public class ForLoops4 {
     public static void main(String[] args) {
+        for(int i=2011;i<=2019;i++){
+            System.out.println("Hey, it is year:");
+        System.out.println(i);}
 
-        for(int i = 0; i < 20; i++){
-            if(i%3!=0){
-                System.out.println(i);
-            }
-        }
     }
 }

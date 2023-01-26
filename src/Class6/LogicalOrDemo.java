@@ -6,6 +6,7 @@ Scanner scan=new Scanner(System.in);
         System.out.println("Please enter Day");
         String day=scan.next();
 
+
         if(day.equalsIgnoreCase("Monday")||day.equalsIgnoreCase("Friday")) {
             System.out.println("No Class today");
         } else if (day.equalsIgnoreCase("Saturday")||day.equalsIgnoreCase("Sunday")){
